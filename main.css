@@ -1,0 +1,36 @@
+    /* 7A lesson classwork */
+
+*   {
+    margin: 0;
+    padding: 0;
+}
+    
+.container  {
+    max-width: 1280px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.open-menu  {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    transition: 1s;
+}
+
+.open-menu__title   {
+    display: none;
+    font-size: 42px;
+}
+
+.open-menu:hover    {
+    width: 100%;
+    background-color: aqua;
+    border-radius: 100%;
+}
+
+.open-menu:hover .open-menu__title  {
+    display: block;
+}
